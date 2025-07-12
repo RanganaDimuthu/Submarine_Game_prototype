@@ -18,7 +18,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float MeshMoveSmoothSpeed = 10f;
     [SerializeField] float MeshOfPlayerTrunSpeed = 10f;
 
-    [SerializeField] float Tiltamount = 15f;  // How much to tilt in X
+
+    [Header("Aniamtions")]
+    [SerializeField] Transform Propeller;
+    [SerializeField] float Defaultspeed = 5f, maxspedforProp = 15f, TargetSpeed = 5f, SmoothingOfAnimation = 1f;
 
     void Update()
     {
@@ -38,11 +41,14 @@ public class PlayerController : MonoBehaviour
         {
             // Accelerate throttle towards maxSpeed
             currentSpeed = Mathf.MoveTowards(currentSpeed, maxSpeed, acceleration * Time.deltaTime);
+
+            TargetSpeed = Mathf.Lerp(TargetSpeed, maxspedforProp, SmoothingOfAnimation * Time.deltaTime);
         }
         else
         {
             // Decelerate throttle towards 0
             currentSpeed = Mathf.MoveTowards(currentSpeed, 0f, deceleration * Time.deltaTime);
+            TargetSpeed = Mathf.Lerp(TargetSpeed, Defaultspeed, SmoothingOfAnimation * Time.deltaTime);
         }
         // Move object forward at current speed (assuming facing right direction)
         transform.Translate(Vector3.right * currentSpeed * Time.deltaTime);
@@ -80,11 +86,18 @@ public class PlayerController : MonoBehaviour
         MeshOfPlayer.transform.eulerAngles = new Vector3(currentRotation.x, smoothedY, currentRotation.z);
 
 
-        
 
-        
-        
-        
+        //Propeller Illution animation
+        if (Propeller != null)
+        {
+           Propeller.transform.Rotate(0f, 0f, TargetSpeed * Time.deltaTime);
+        }
+
+
+
+
+
+
 
 
 
