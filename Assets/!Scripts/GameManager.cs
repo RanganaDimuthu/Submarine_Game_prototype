@@ -20,6 +20,10 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] TextMeshProUGUI Points;
+    [SerializeField] Transform Startingpoint;
+    [SerializeField] int StartingDepth = 500;
+    [SerializeField] Transform Endpoint;
+    [SerializeField] TextMeshProUGUI Distance;
     [SerializeField] int Score = 0;
 
     [Header("Audio")]
@@ -53,7 +57,23 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0f;
         }
 
+
+        float rawDistance = Startingpoint.transform.position.y - Endpoint.transform.position.y;
+        
+        // Round to the nearest 10 meters (instead of 1)
+        int distanceInTens = Mathf.RoundToInt(rawDistance / 10f) * 100;
+
+        // Add a starting offset to avoid "0 m" — for example, start at 100 m
+        int offset = StartingDepth;
+        int depthValue = distanceInTens + offset;
+
+        // Format as 3 digits (or 4 if it can go beyond 999m)
+        string formattedDistance = depthValue.ToString("D3");
+
+        // Apply to UI
+        Distance.text = formattedDistance + " m";
         Points.text = Score.ToString();
+
 
         if (isMuted)
         {

@@ -52,16 +52,24 @@ public class PlayerController : MonoBehaviour
 
         if (ActiveInputs)
         {
-            
 
-            //Handle Rotation...
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePos.z = 0f;
-            Vector3 direction = mousePos - transform.position;
+
+            // Properly calculate distance from camera to player for perspective projection
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z = Mathf.Abs(Camera.main.transform.position.z - transform.position.z); // This works for 2.5D or side view
+
+            // Convert to world point
+            Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(mousePos);
+            worldMousePos.z = 0f; // Ensure it's on the same plane as your player
+
+            // Direction to mouse
+            Vector3 direction = worldMousePos - transform.position;
             float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             Quaternion targetRotation = Quaternion.Euler(0f, 0f, targetAngle);
-            // Smoothly rotate from current rotation to target rotation
+
+            // Rotate
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
 
 
             //Handle Throttle...

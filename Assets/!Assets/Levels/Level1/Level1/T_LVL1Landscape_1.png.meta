@@ -1,0 +1,1530 @@
+fileFormatVersion: 2
+guid: e70ed9413a8d0a54688ae2ad0b225c7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4931235208349122274
+    second: T_LVL1Landscape_1_0
+  - first:
+      213: 4272629429698424039
+    second: T_LVL1Landscape_1_1
+  - first:
+      213: -5984392074006911397
+    second: T_LVL1Landscape_1_2
+  - first:
+      213: -3092986858481163267
+    second: T_LVL1Landscape_1_3
+  - first:
+      213: -6127209491187277273
+    second: T_LVL1Landscape_1_4
+  - first:
+      213: 3624772575737889739
+    second: T_LVL1Landscape_1_5
+  - first:
+      213: 3957771976572717355
+    second: T_LVL1Landscape_1_6
+  - first:
+      213: -8149649453581926651
+    second: T_LVL1Landscape_1_7
+  - first:
+      213: 3133267037709789364
+    second: T_LVL1Landscape_1_8
+  - first:
+      213: -97708102511584112
+    second: T_LVL1Landscape_1_9
+  - first:
+      213: -4713180538577468449
+    second: T_LVL1Landscape_1_10
+  - first:
+      213: 7670484492168017847
+    second: T_LVL1Landscape_1_11
+  - first:
+      213: 5320698225696809776
+    second: T_LVL1Landscape_1_12
+  - first:
+      213: 3212042967114011402
+    second: T_LVL1Landscape_1_13
+  - first:
+      213: -3454406345835131292
+    second: T_LVL1Landscape_1_14
+  - first:
+      213: 8742437874370101554
+    second: T_LVL1Landscape_1_15
+  - first:
+      213: -6835617479677295896
+    second: T_LVL1Landscape_1_16
+  - first:
+      213: -4302611477898421502
+    second: T_LVL1Landscape_1_17
+  - first:
+      213: 7781714250341155651
+    second: T_LVL1Landscape_1_18
+  - first:
+      213: 8125562881011334974
+    second: T_LVL1Landscape_1_19
+  - first:
+      213: -7173751784123082160
+    second: T_LVL1Landscape_1_20
+  - first:
+      213: -5633843071888401938
+    second: T_LVL1Landscape_1_21
+  - first:
+      213: 920200154856955397
+    second: T_LVL1Landscape_1_22
+  - first:
+      213: -1361926222240947881
+    second: T_LVL1Landscape_1_23
+  - first:
+      213: -8889894832156247106
+    second: T_LVL1Landscape_1_24
+  - first:
+      213: 4393172572934102352
+    second: T_LVL1Landscape_1_25
+  - first:
+      213: -54001720190681605
+    second: T_LVL1Landscape_1_26
+  - first:
+      213: -8591385244693671342
+    second: T_LVL1Landscape_1_27
+  - first:
+      213: -3200138876941047833
+    second: T_LVL1Landscape_1_28
+  - first:
+      213: -1004514778197223239
+    second: T_LVL1Landscape_1_29
+  - first:
+      213: -8125330101264686671
+    second: T_LVL1Landscape_1_30
+  - first:
+      213: -99640013388036912
+    second: T_LVL1Landscape_1_31
+  - first:
+      213: 7663236612258138091
+    second: T_LVL1Landscape_1_32
+  - first:
+      213: -8565003515641738655
+    second: T_LVL1Landscape_1_33
+  - first:
+      213: 798426025527665679
+    second: T_LVL1Landscape_1_34
+  - first:
+      213: 4059585894378204511
+    second: T_LVL1Landscape_1_35
+  - first:
+      213: -5359415302035741254
+    second: T_LVL1Landscape_1_36
+  - first:
+      213: 2035090130603400728
+    second: T_LVL1Landscape_1_37
+  - first:
+      213: -4560506605611664279
+    second: T_LVL1Landscape_1_38
+  - first:
+      213: 6845043490047814781
+    second: T_LVL1Landscape_1_39
+  - first:
+      213: -5253497490370982865
+    second: T_LVL1Landscape_1_40
+  - first:
+      213: 7170555342483966524
+    second: T_LVL1Landscape_1_41
+  - first:
+      213: -2663034836208225423
+    second: T_LVL1Landscape_1_42
+  - first:
+      213: 6994671098968334611
+    second: T_LVL1Landscape_1_43
+  - first:
+      213: 4960659792419295051
+    second: T_LVL1Landscape_1_44
+  - first:
+      213: -8496967458450545603
+    second: T_LVL1Landscape_1_45
+  - first:
+      213: -6893269560867509317
+    second: T_LVL1Landscape_1_46
+  - first:
+      213: 8173521983251556400
+    second: T_LVL1Landscape_1_47
+  - first:
+      213: 917229300101269069
+    second: T_LVL1Landscape_1_48
+  - first:
+      213: -9103461440701313346
+    second: T_LVL1Landscape_1_49
+  - first:
+      213: -2342229764301837539
+    second: T_LVL1Landscape_1_50
+  - first:
+      213: 544669228534125964
+    second: T_LVL1Landscape_1_51
+  - first:
+      213: -7573793621593200515
+    second: T_LVL1Landscape_1_52
+  - first:
+      213: 1971258469634571120
+    second: T_LVL1Landscape_1_53
+  - first:
+      213: 4626606433541709648
+    second: T_LVL1Landscape_1_54
+  - first:
+      213: 4442962895330210708
+    second: T_LVL1Landscape_1_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1407
+        width: 984
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11837e64bbb09bb0800000000000000
+      internalID: -4931235208349122274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_1
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1919
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eced0634dd6b4b30800000000000000
+      internalID: 4272629429698424039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_2
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1637
+        width: 182
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56a7288d1b23fca0800000000000000
+      internalID: -5984392074006911397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_3
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1587
+        width: 871
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3674de6d08315d0800000000000000
+      internalID: -3092986858481163267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_4
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1896
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722616d5e67c7faa0800000000000000
+      internalID: -6127209491187277273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_5
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1674
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc34f68e377cd4230800000000000000
+      internalID: 3624772575737889739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_6
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1666
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29cc9db4a4dce630800000000000000
+      internalID: 3957771976572717355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_7
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1660
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ffa4b2001a6ee80800000000000000
+      internalID: -8149649453581926651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_8
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1657
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e12125c99b7b20800000000000000
+      internalID: 3133267037709789364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_9
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1505
+        width: 157
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c9e1a9ffed4aef0800000000000000
+      internalID: -97708102511584112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_10
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1366
+        width: 182
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd34ecb854b679eb0800000000000000
+      internalID: -4713180538577468449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_11
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1193
+        width: 738
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b731d27109037a60800000000000000
+      internalID: 7670484492168017847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 945
+        width: 1131
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033a5b398dae6d940800000000000000
+      internalID: 5320698225696809776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_13
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1373
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a035f1a7f08739c20800000000000000
+      internalID: 3212042967114011402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_14
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1086
+        width: 248
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e44ae0bbb7f00d0800000000000000
+      internalID: -3454406345835131292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_15
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1049
+        width: 223
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23140c46de0635970800000000000000
+      internalID: 8742437874370101554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_16
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1046
+        width: 343
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2426f6e120321a0800000000000000
+      internalID: -6835617479677295896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 449
+        width: 924
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b985538ad0a44c0800000000000000
+      internalID: -4302611477898421502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_18
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 784
+        width: 448
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3430e23a1e33efb60800000000000000
+      internalID: 7781714250341155651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_19
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 854
+        width: 608
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fb7c2a36cc3c070800000000000000
+      internalID: 8125562881011334974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_20
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 600
+        width: 354
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ad480b2c6b17c90800000000000000
+      internalID: -7173751784123082160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_21
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 823
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9dbc3539190d1b0800000000000000
+      internalID: -5633843071888401938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 810
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e12885a2535cc00800000000000000
+      internalID: 920200154856955397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 805
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751e9011157791de0800000000000000
+      internalID: -1361926222240947881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 700
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbfeb630cfb0a480800000000000000
+      internalID: -8889894832156247106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_25
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 591
+        width: 391
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dd9b6dd2fa7fc30800000000000000
+      internalID: 4393172572934102352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 688
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd36cab8b5204ff0800000000000000
+      internalID: -54001720190681605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 677
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252508993a445c880800000000000000
+      internalID: -8591385244693671342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7e20085a2d693d0800000000000000
+      internalID: -3200138876941047833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_29
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 551
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b89ce1a12f3f02f0800000000000000
+      internalID: -1004514778197223239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_30
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 559
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1645f92570d3f80800000000000000
+      internalID: -8125330101264686671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 553
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4479c8fe10e9ef0800000000000000
+      internalID: -99640013388036912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_32
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 289
+        width: 1195
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be70a67e819495a60800000000000000
+      internalID: 7663236612258138091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 547
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ac33e8eaef22980800000000000000
+      internalID: -8565003515641738655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 585
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04e00f6d34941b00800000000000000
+      internalID: 798426025527665679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_35
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 537
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d6991ccdb865830800000000000000
+      internalID: 4059585894378204511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_36
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 527
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5ed5e9d288f95b0800000000000000
+      internalID: -5359415302035741254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_37
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 423
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ed48001b71e3c10800000000000000
+      internalID: 2035090130603400728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_38
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 275
+        width: 277
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cb1b0a763d5b0c0800000000000000
+      internalID: -4560506605611664279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_39
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 399
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c6660a9ca7efe50800000000000000
+      internalID: 6845043490047814781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_40
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 387
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c0802edd3d717b0800000000000000
+      internalID: -5253497490370982865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_41
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 362
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a490fb71ee28360800000000000000
+      internalID: 7170555342483966524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_42
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 357
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17371530deffa0bd0800000000000000
+      internalID: -2663034836208225423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_43
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 3
+        width: 528
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311e2be1e40121160800000000000000
+      internalID: 6994671098968334611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_44
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 345
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f07ba6ccdc7d440800000000000000
+      internalID: 4960659792419295051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_45
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 325
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34600b8d15b41a80800000000000000
+      internalID: -8496967458450545603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_46
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 324
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbaa734bdf2650a0800000000000000
+      internalID: -6893269560867509317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_47
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 323
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0382e8740fe2e6170800000000000000
+      internalID: 8173521983251556400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_48
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 317
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46cd125037aabc00800000000000000
+      internalID: 917229300101269069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_49
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 322
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe48884d020aa180800000000000000
+      internalID: -9103461440701313346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_50
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 322
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b2174607abe7fd0800000000000000
+      internalID: -2342229764301837539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1307
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85dcde07cd0f8700800000000000000
+      internalID: 544669228534125964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_52
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 0
+        width: 203
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7861de24da74e690800000000000000
+      internalID: -7573793621593200515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_53
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b7c0b42215b5b10800000000000000
+      internalID: 1971258469634571120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_54
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 21
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f5acad902053040800000000000000
+      internalID: 4626606433541709648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_LVL1Landscape_1_55
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 0
+        width: 447
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493f566a63398ad30800000000000000
+      internalID: 4442962895330210708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -58,11 +58,11 @@ public class NPCBehaviour : MonoBehaviour
         GameHud.SetActive(false);
         dialogueCanvas.SetActive(true);
         dialogueText.text = message;
-        CancelInvoke(nameof(HideDialogue));
-        Invoke(nameof(HideDialogue), dialogueDuration);
+       /* CancelInvoke(nameof(HideDialogue));
+        Invoke(nameof(HideDialogue), dialogueDuration);*/
     }
 
-    private void HideDialogue()
+    public void HideDialogue()
     {
         GameHud.SetActive(true);
         if (dialogueCanvas != null)

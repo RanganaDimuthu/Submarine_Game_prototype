@@ -11,7 +11,7 @@ public class Interactive : MonoBehaviour
     [SerializeField] PlayerController PlayerController;
 
     [Header("Reusability")]
-    [SerializeField] private bool canReUse = false; // 👈 Toggle this in Inspector
+    [SerializeField] private bool canReUse = false; // Toggle this in Inspector
     [SerializeField] private float reuseCooldown = 1f; // optional cooldown (seconds)
 
     [Header("Debug/State")]
@@ -22,6 +22,8 @@ public class Interactive : MonoBehaviour
         GameObject player = GameObject.FindWithTag("Player");
         PlayerController = player.GetComponent<PlayerController>();
     }
+
+    
 
     public void CallResult()
     {
