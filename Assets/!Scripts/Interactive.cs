@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class Interactive : MonoBehaviour
@@ -10,14 +10,17 @@ public class Interactive : MonoBehaviour
     [SerializeField] bool DisableInputOnInteraction = true;
     [SerializeField] PlayerController PlayerController;
 
+    [Header("Reusability")]
+    [SerializeField] private bool canReUse = false; // 👈 Toggle this in Inspector
+    [SerializeField] private float reuseCooldown = 1f; // optional cooldown (seconds)
+
     [Header("Debug/State")]
-    [SerializeField] private bool hasInteracted = false;  //  New interaction flag
+    [SerializeField] private bool hasInteracted = false;
 
     private void Start()
     {
         GameObject player = GameObject.FindWithTag("Player");
         PlayerController = player.GetComponent<PlayerController>();
-
     }
 
     public void CallResult()
@@ -26,7 +29,23 @@ public class Interactive : MonoBehaviour
         {
             hasInteracted = true;
             Invoke(nameof(R), DelayTime);
+
+            if (canReUse)
+            {
+                // Reset interaction after delay + cooldown
+                Invoke(nameof(ResetInteraction), DelayTime + reuseCooldown);
+            }
         }
+    }
+
+    private void R()
+    {
+        Result.Invoke();
+    }
+
+    private void ResetInteraction()
+    {
+        hasInteracted = false;
     }
 
     private void Update()
@@ -58,11 +77,6 @@ public class Interactive : MonoBehaviour
         return false;
     }
 
-    private void R()
-    {
-        Result.Invoke();
-    }
-
     public void debug(string Log)
     {
         Debug.Log(Log);
@@ -74,6 +88,5 @@ public class Interactive : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, 3f);
     }
 
-    //Public getter if other scripts need to check
     public bool HasInteracted => hasInteracted;
 }

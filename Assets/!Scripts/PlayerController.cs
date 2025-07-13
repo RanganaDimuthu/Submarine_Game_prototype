@@ -161,7 +161,6 @@ public class PlayerController : MonoBehaviour
         }else if (Input.GetMouseButtonUp(1))
         {
             sonar.Stop();
-            SonarAudioSource.Stop();
         }
 
 
