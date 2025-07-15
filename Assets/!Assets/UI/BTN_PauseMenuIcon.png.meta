@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BTN_PauseMenuIcon_0: 4728383851589417975
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

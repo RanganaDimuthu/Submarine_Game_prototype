@@ -10,6 +10,8 @@ public class sonar : MonoBehaviour
     public bool Holding = false;
     private HashSet<Collider> previousHits = new HashSet<Collider>();
 
+
+
     void Update()
     {
         Collider[] currentHits = Physics.OverlapSphere(transform.position, detectionRadius, detectionLayers);

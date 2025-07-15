@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: 2576da37b3f60e24c956a581d984a8e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1652577718509921203
+    second: Level_2_Plane_0
+  - first:
+      213: 278843858393885269
+    second: Level_2_Plane_1
+  - first:
+      213: 4667057108679208449
+    second: Level_2_Plane_2
+  - first:
+      213: -6876433966968940585
+    second: Level_2_Plane_3
+  - first:
+      213: 9179028770019484084
+    second: Level_2_Plane_4
+  - first:
+      213: 4501206555113874324
+    second: Level_2_Plane_5
+  - first:
+      213: 7690676116979518180
+    second: Level_2_Plane_6
+  - first:
+      213: 8666479427524197018
+    second: Level_2_Plane_7
+  - first:
+      213: -852696088200389691
+    second: Level_2_Plane_8
+  - first:
+      213: 7882373706964710874
+    second: Level_2_Plane_9
+  - first:
+      213: -1128911283443102475
+    second: Level_2_Plane_10
+  - first:
+      213: 1357842539244018014
+    second: Level_2_Plane_11
+  - first:
+      213: -4283001633271899104
+    second: Level_2_Plane_12
+  - first:
+      213: 2766636601001606038
+    second: Level_2_Plane_13
+  - first:
+      213: 5241014773861667069
+    second: Level_2_Plane_14
+  - first:
+      213: 6118308131608761241
+    second: Level_2_Plane_15
+  - first:
+      213: -3878334402199956317
+    second: Level_2_Plane_16
+  - first:
+      213: -1542919893225857786
+    second: Level_2_Plane_17
+  - first:
+      213: -4939089730470962995
+    second: Level_2_Plane_18
+  - first:
+      213: -5817498235507967604
+    second: Level_2_Plane_19
+  - first:
+      213: -5556457701166446743
+    second: Level_2_Plane_20
+  - first:
+      213: -4014843169244004569
+    second: Level_2_Plane_21
+  - first:
+      213: -8913463516403317768
+    second: Level_2_Plane_22
+  - first:
+      213: 3475348477627248592
+    second: Level_2_Plane_23
+  - first:
+      213: -6230316037186253193
+    second: Level_2_Plane_24
+  - first:
+      213: -617236608418227004
+    second: Level_2_Plane_25
+  - first:
+      213: -7625923813915234938
+    second: Level_2_Plane_26
+  - first:
+      213: -956447465541207517
+    second: Level_2_Plane_27
+  - first:
+      213: -7141140497133579401
+    second: Level_2_Plane_28
+  - first:
+      213: -8996719141032833342
+    second: Level_2_Plane_29
+  - first:
+      213: -5484603000458911177
+    second: Level_2_Plane_30
+  - first:
+      213: 5840432176540823364
+    second: Level_2_Plane_31
+  - first:
+      213: -615165586387341000
+    second: Level_2_Plane_32
+  - first:
+      213: 7652462563594004040
+    second: Level_2_Plane_33
+  - first:
+      213: -7386841864754892750
+    second: Level_2_Plane_34
+  - first:
+      213: -438535887314466855
+    second: Level_2_Plane_35
+  - first:
+      213: 591660994413964573
+    second: Level_2_Plane_36
+  - first:
+      213: -8900821658630738955
+    second: Level_2_Plane_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_2_Plane_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 823
+        width: 250
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b36283eda22fe610800000000000000
+      internalID: 1652577718509921203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 858
+        width: 44
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55aed570307aed300800000000000000
+      internalID: 278843858393885269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 832
+        width: 48
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e294596b7b4c040800000000000000
+      internalID: 4667057108679208449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 703
+        width: 83
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7d26d6dbff190a0800000000000000
+      internalID: -6876433966968940585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_4
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 618
+        width: 271
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b12a14a806726f70800000000000000
+      internalID: 9179028770019484084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 646
+        width: 69
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493e832738f777e30800000000000000
+      internalID: 4501206555113874324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 639
+        width: 72
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea05237e25caba60800000000000000
+      internalID: 7690676116979518180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_7
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 580
+        width: 88
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a7fc25f15854870800000000000000
+      internalID: 8666479427524197018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 677
+        width: 220
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb5371fc6d9a24f0800000000000000
+      internalID: -852696088200389691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_9
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 609
+        width: 131
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5b286bf11d36d60800000000000000
+      internalID: 7882373706964710874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 496
+        width: 134
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc817f3b2d4550f0800000000000000
+      internalID: -1128911283443102475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 444
+        width: 198
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59dd84689608d210800000000000000
+      internalID: 1357842539244018014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_12
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 477
+        width: 259
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c1964f4b8bf84c0800000000000000
+      internalID: -4283001633271899104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_13
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 372
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b7b419451156620800000000000000
+      internalID: 2766636601001606038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_14
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 501
+        width: 173
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df059923b23dbb840800000000000000
+      internalID: 5241014773861667069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 323
+        width: 219
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939cea54d898e450800000000000000
+      internalID: 6118308131608761241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_16
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 348
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4d1b4d8636d2ac0800000000000000
+      internalID: -3878334402199956317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_17
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 277
+        width: 122
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d93672882769ae0800000000000000
+      internalID: -1542919893225857786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_18
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 426
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc89f7dfe04d47bb0800000000000000
+      internalID: -4939089730470962995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_19
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 423
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89f51f5d28144fa0800000000000000
+      internalID: -5817498235507967604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_20
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 243
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9678d70092f73e2b0800000000000000
+      internalID: -5556457701166446743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 297
+        width: 211
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fbe4cb8696848c0800000000000000
+      internalID: -4014843169244004569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_22
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 221
+        width: 164
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3406a48240d4480800000000000000
+      internalID: -8913463516403317768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_23
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 152
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfaaa7f60bea3030800000000000000
+      internalID: 3475348477627248592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 176
+        width: 146
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e0815e2987989a0800000000000000
+      internalID: -6230316037186253193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_25
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 206
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc5ddc23922f67f0800000000000000
+      internalID: -617236608418227004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 188
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68de363f1b64b2690800000000000000
+      internalID: -7625923813915234938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_27
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 160
+        width: 90
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32af71af8140ab2f0800000000000000
+      internalID: -956447465541207517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_28
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 153
+        width: 96
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7735231ad8295ec90800000000000000
+      internalID: -7141140497133579401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_29
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 109
+        width: 125
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cec7ce9b9b352380800000000000000
+      internalID: -8996719141032833342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 14
+        width: 78
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732ea9731a6c2e3b0800000000000000
+      internalID: -5484603000458911177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 13
+        width: 129
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f2a71ee126d0150800000000000000
+      internalID: 5840432176540823364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_32
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 14
+        width: 103
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8317651982e7677f0800000000000000
+      internalID: -615165586387341000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_33
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 14
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846eef73822033a60800000000000000
+      internalID: 7652462563594004040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_34
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 18
+        width: 103
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230fc4f067aac7990800000000000000
+      internalID: -7386841864754892750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_35
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 14
+        width: 75
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d74c571fe10ae9f0800000000000000
+      internalID: -438535887314466855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_36
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 18
+        width: 119
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1daf772a80063800800000000000000
+      internalID: 591660994413964573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_2_Plane_37
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 20
+        width: 83
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb263c2cdde97480800000000000000
+      internalID: -8900821658630738955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

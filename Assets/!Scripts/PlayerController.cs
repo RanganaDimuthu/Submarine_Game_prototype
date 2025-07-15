@@ -47,11 +47,13 @@ public class PlayerController : MonoBehaviour
 
     [Header("Public Data")]
     public bool ActiveInputs = true;
+
+
+    public GameObject SonarRadar;
     void Update()
     {
 
-        if (ActiveInputs)
-        {
+
 
 
             // Properly calculate distance from camera to player for perspective projection
@@ -73,7 +75,7 @@ public class PlayerController : MonoBehaviour
 
 
             //Handle Throttle...
-            if (Input.GetMouseButton(0) && !isBlocked) 
+            if (Input.GetMouseButton(0) && !isBlocked && !Interactive.Interacting) 
             {
                 // Accelerate throttle towards maxSpeed
                 currentSpeed = Mathf.MoveTowards(currentSpeed, maxSpeed, acceleration * Time.deltaTime);
@@ -91,7 +93,7 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(Vector3.right * currentSpeed * Time.deltaTime);
             }
 
-        }
+        
 
        
 
@@ -156,6 +158,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             sonar.Play();
+            SonarRadar.SetActive(true);
             SonarAudioSource.Play();
             if (!SonarScript.Holding)
             {
@@ -169,6 +172,7 @@ public class PlayerController : MonoBehaviour
         }else if (Input.GetMouseButtonUp(1))
         {
             sonar.Stop();
+            SonarRadar.SetActive(false);
         }
 
 
@@ -204,7 +208,7 @@ public class PlayerController : MonoBehaviour
             transform.position = Vector3.Lerp(
                 transform.position,
                 MeshOfPlayer.transform.position,
-                Time.deltaTime * 15f
+                Time.deltaTime * 2f
             );
         }
 

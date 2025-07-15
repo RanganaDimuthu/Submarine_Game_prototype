@@ -6,7 +6,7 @@ public class Interactive : MonoBehaviour
     [Header("Settings")]
     [SerializeField] UnityEvent Result;
     [SerializeField] float DelayTime = 5f;
-    [SerializeField] GameObject TargetCanvas;
+   // [SerializeField] GameObject TargetCanvas;
     [SerializeField] bool DisableInputOnInteraction = true;
     [SerializeField] PlayerController PlayerController;
 
@@ -16,6 +16,25 @@ public class Interactive : MonoBehaviour
 
     [Header("Debug/State")]
     [SerializeField] private bool hasInteracted = false;
+
+    public GameObject ObjectHightlighticon , DotIcon;
+
+    public PanelManager PanelManager;
+    public bool PanelOpened;
+
+    public bool PrimaryObjective,SecondaryObjective;
+    public static bool Interacting;
+    public bool CoralMode, CoralRestored;
+
+
+    public LevelManager LevelManager;
+    public bool interactedthisobject;
+
+    private void Awake()
+    {
+        ObjectHightlighticon.SetActive(false);
+        DotIcon.SetActive(true);
+    }
 
     private void Start()
     {
@@ -50,20 +69,6 @@ public class Interactive : MonoBehaviour
         hasInteracted = false;
     }
 
-    private void Update()
-    {
-        if (DisableInputOnInteraction && IsPlayerNearby())
-        {
-            if (TargetCanvas.activeInHierarchy)
-            {
-                PlayerController.SetUpInputOfPlayer(false);
-            }
-            else
-            {
-                PlayerController.SetUpInputOfPlayer(true);
-            }
-        }
-    }
 
     private bool IsPlayerNearby()
     {
@@ -79,6 +84,81 @@ public class Interactive : MonoBehaviour
         return false;
     }
 
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (ObjectHightlighticon != null)
+            {
+                ObjectHightlighticon.SetActive(true);
+            }
+            if (DotIcon != null)
+            {
+                DotIcon.SetActive(false);
+            }
+        }
+
+        if (other.gameObject.CompareTag("Sonar"))
+        {
+            CallResult();
+            if (!PanelOpened && PrimaryObjective && !SecondaryObjective)
+            {
+                if(LevelManager.InteractedObjects == LevelManager.ObjectstoInteract ){
+                    PanelManager.OpenPanel();
+                    PanelOpened = true;
+                    Interacting = true;
+                }
+                else
+                {
+                    LevelManager.ShowInfoTextPrimaryObj();
+                }
+
+            }
+            else if(SecondaryObjective && !PanelOpened)
+            {
+                if (CoralMode)
+                {
+                    
+                    if (!CoralRestored)
+                    {
+                        Interacting = true;
+                    }
+                }
+                else
+                {
+                    if (!interactedthisobject)
+                    {
+                        LevelManager.ANewObjectInteracted();
+                        interactedthisobject = true;
+                    }
+                   
+                    Interacting = true;
+                    
+                }
+
+               
+            }
+            
+        }
+
+
+
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (ObjectHightlighticon != null)
+            {
+                ObjectHightlighticon.SetActive(false);
+            }
+            if (DotIcon != null)
+            {
+                DotIcon.SetActive(true);
+            }
+        }
+    }
+
     public void debug(string Log)
     {
         Debug.Log(Log);
@@ -91,4 +171,10 @@ public class Interactive : MonoBehaviour
     }
 
     public bool HasInteracted => hasInteracted;
+
+
+    public void CoralRestoredCall()
+    {
+        CoralRestored = true;
+    }
 }

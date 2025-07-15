@@ -16,12 +16,14 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] Image AudioIconImage;
     [SerializeField] Sprite MuteIcon, UnmuteIcon;
-
+    [SerializeField] GameObject CameraObject;
+    [SerializeField] float targetcamfeed;
 
     [Header("UI")]
     [SerializeField] TextMeshProUGUI Points;
     [SerializeField] Transform Startingpoint;
     [SerializeField] int StartingDepth = 500;
+    [SerializeField] int m_by = 100;
     [SerializeField] Transform Endpoint;
     [SerializeField] TextMeshProUGUI Distance;
     [SerializeField] int Score = 0;
@@ -29,6 +31,18 @@ public class GameManager : MonoBehaviour
     [Header("Audio")]
     public AudioMixer audioMixer;
     private bool isMuted = false;
+
+    private void Start()
+    {
+        if (CameraObject == null && Camera.main != null)
+            CameraObject = Camera.main.gameObject;
+        targetcamfeed = -25;
+    }
+    public void SetTargetZ(float newZ)
+    {
+        targetcamfeed = newZ;
+    }
+
     public void ChangeGameState()
     {
         GameState = !GameState;
@@ -58,10 +72,14 @@ public class GameManager : MonoBehaviour
         }
 
 
+        Vector3 camPos = CameraObject.transform.position;
+        camPos.z = Mathf.Lerp(camPos.z, targetcamfeed, Time.deltaTime * 2f);
+        CameraObject.transform.position = camPos;
+
         float rawDistance = Startingpoint.transform.position.y - Endpoint.transform.position.y;
         
         // Round to the nearest 10 meters (instead of 1)
-        int distanceInTens = Mathf.RoundToInt(rawDistance / 10f) * 100;
+        int distanceInTens = Mathf.RoundToInt(rawDistance / 10f) * m_by;
 
         // Add a starting offset to avoid "0 m" — for example, start at 100 m
         int offset = StartingDepth;
@@ -89,4 +107,18 @@ public class GameManager : MonoBehaviour
     {
         Score += Amount;
     }
+
+
+
+    public void InteractionOn()
+    {
+        Interactive.Interacting = true;
+    }
+
+    public void InteractionOff()
+    {
+        Interactive.Interacting = false;
+    }
 }
+
+
