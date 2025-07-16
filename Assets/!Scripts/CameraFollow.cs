@@ -19,4 +19,14 @@ public class CameraFollow : MonoBehaviour
 
 
     }
+
+
+    public void changeTarget(Transform transform)
+    {
+        Target = transform;
+    }
+    public void setspeedcam(float speed)
+    {
+        CamerafollowSpeed  = speed;
+    }
 }

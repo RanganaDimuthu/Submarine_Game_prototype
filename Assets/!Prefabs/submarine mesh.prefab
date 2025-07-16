@@ -10185,10 +10185,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2126a571d461e0b4b9e5094642094ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 4.44
+  detectionRadius: 4.15
   detectionLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   currentinteractive: {fileID: 0}
   Holding: 0
 --- !u!54 &7656951041971314561
@@ -15539,7 +15539,7 @@ Rigidbody:
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -15548,7 +15548,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 16
+  m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!135 &1933287775152992323
 SphereCollider:

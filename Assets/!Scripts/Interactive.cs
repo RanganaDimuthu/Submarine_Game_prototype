@@ -158,6 +158,11 @@ public class Interactive : MonoBehaviour
             }
         }
     }
+    public void CancelResultInvoke()
+    {
+        CancelInvoke(nameof(R));
+    }
+
 
     public void debug(string Log)
     {

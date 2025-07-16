@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Image AudioIconImage;
     [SerializeField] Sprite MuteIcon, UnmuteIcon;
     [SerializeField] GameObject CameraObject;
+    [SerializeField] float CamerafollowSpeed = 2f;
     [SerializeField] float targetcamfeed;
 
     [Header("UI")]
@@ -73,7 +74,7 @@ public class GameManager : MonoBehaviour
 
 
         Vector3 camPos = CameraObject.transform.position;
-        camPos.z = Mathf.Lerp(camPos.z, targetcamfeed, Time.deltaTime * 2f);
+        camPos.z = Mathf.Lerp(camPos.z, targetcamfeed, Time.deltaTime * CamerafollowSpeed);
         CameraObject.transform.position = camPos;
 
         float rawDistance = Startingpoint.transform.position.y - Endpoint.transform.position.y;
@@ -108,7 +109,10 @@ public class GameManager : MonoBehaviour
         Score += Amount;
     }
 
-
+    public void setspeedcam(float speed)
+    {
+        CamerafollowSpeed = speed;
+    }
 
     public void InteractionOn()
     {
